@@ -19,7 +19,7 @@ Yes he did. I believe that this is *integral* to everything that we will do here
 
 ### Coding for example
 
-For example, please look in your `int main` function. Some othcollaper examples of functions are:
+For example, please look in your `int main` function. Some othcollaper examples of functions are:nfl
 ```C++
 int main(){
     cout << "Hello World" << endl;
