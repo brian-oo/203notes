@@ -19,7 +19,7 @@ Yes he did. I believe that this is *integral* to everything that we will do here
 
 ### Coding for example
 
-For example, please look in your `int main` function. Some other examples of functions are:
+For example, please look in your `int main` function. Some othcollaper examples of functions are:
 ```C++
 int main(){
     cout << "Hello World" << endl;
@@ -59,3 +59,40 @@ Take a look at this weird science thing:
 
  ![Weird Science Thingy](collpitts.png)
 
+ ## Playing with Collapses Now!
+
+<details>
+    <summary>Click to expand!</summary>
+
+woah this stuff is hidden how is this possible woaH
+</details>
+
+#### Sample Exam Problem
+How many times does the inner loop run? What is the final value of x at the end of the program?
+```C++
+int function(int input){
+    int x = 0
+    for(int i = input; input < 100; input++){
+        x += 1;
+    }
+}
+```
+<details>
+    <summary>Solution</summary>
+
+The loop runs 100 - `input` times and the `x` has the same value as input.
+</details>
+
+Tada!
+
+### Alright Now we are gonna play with typing math
+The following formula is good $\binom{7}{2} = 2^4$. Please refer to the following proof as to why this works. 
+
+#### This is a mathmatical proof!
+$\begin{aligned}
+    x &= 1 + C \\
+    Cx &= 1 \\
+    \log_xC &= 1 - 45
+\end{aligned}$
+
+Therefore, we have just proven it works!
