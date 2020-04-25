@@ -88,7 +88,7 @@ The loop runs 100 - `input` times and the `x` has the same value as input.
 Tada!
 
 ### Alright Now we are gonna play with typing math
-The following formula is good $$\binom{7}{2} = 2^4$$. Please refer to the following proof as to why this works. 
+The following formula is good $ \binom{7}{2} = 2^4 $. Please refer to the following proof as to why this works. 
 
 #### This is a mathmatical proof!
 $$\begin{aligned}
