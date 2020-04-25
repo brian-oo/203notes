@@ -61,6 +61,7 @@ Take a look at this weird science thing:
 
  ![Weird Science Thingy](collpitts.png)
 
+
  ## Playing with Collapses Now!
 
 <details>
