@@ -11,6 +11,7 @@ permalink: /proplogic/
 {:toc}
 
 # Propositions
+
 In order to begin our journey in any proof-based math class, we must start with the building block: propositions. If logic and proofs were a house, propositions are the bricks. A **proposition** is a declarative statement that is either *true* or *false*. Propositions must be true or false, and can not be neither true nor false, nor be both true and false. Propositions are strictly binary and must maintain only one truth value at a time.
 
 <details><summary markdown='span'>EECS Extension
@@ -51,7 +52,7 @@ Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 
 
 In order to simplify logical expressions, we can use letters: such as $$ p, q, r $$ to represent propositions. Let's say we have propositions: $$ p = $$ *It rained today* and $$ q = $$ *I brought my umbrella today*. How could we express the logical statement: "*It rained today and I brought my umbrella.*" We could define a new proposition, $$ r $$ to represent this statement, however this will get tedious the more and more expressions we have. The way to combine propositions is with logical operators.
 
-## Logical Operators
+### Logical Operators
 
 If we want to express both the logical expression of both $$ p $$ and $$ q $$, we use the *and* operator: $$ \wedge $$. Therefore, to represent the statement "*It rained today and I brought my umbrella*": $$ p \wedge q $$. A full table of logical operators is below: 
 
@@ -70,7 +71,9 @@ $$ p $$ | $$ q $$ | $$ \neg p $$ | $$ p \wedge q $$ | $$ p \vee q $$ | $$ p \opl
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
 T | T | F | T | T | F | T | T
 
-### Or vs. Xor
+
+#### Or vs. Xor
+
 
 In logic we have two ways to express the English word "*or*". This is because there are some instances where we need an inclusive-or or an exclusive-or (xor). For example, the or in "*Today or tomorrow is her birthday*" is an exclusive-or since both situations can not both be true. Meanwhile the or in "*Would you like cream or sugar*" is inclusive because wanting cream, sugar, or both would all be valid responses.
 
