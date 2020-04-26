@@ -1,7 +1,9 @@
 ---
-title: Introduction to Discrete Math
-highlighter: rouge
+title: Tester
 ---
+
+# Links to other Pages (toc)
+* [Introduction to Discrete Math](intro.md)
 
 # Heading
 George Washington
