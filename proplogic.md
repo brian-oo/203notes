@@ -81,11 +81,31 @@ In logic we have two ways to express the English word "*or*". This is because th
 
 #### Implication
 
-Implication is naturally unintuitive. Saying that if $$ p $$ then $$ q $$ suggests that there is a causal relationship between $$ p $$ and $$ q $$, however we must obey the truth table. The proposition "$$ (0 = 1) \rightarrow $$ *pigs can fly*" is true. This is because the $$ (0 = 1) $$ is false and "*pigs can fly* is false, however according to the truth table $$ F \rightarrow F = T $$. It takes practice to intuitively understand how implications work. 
+Implication is naturally unintuitive. Saying that if $$ p $$ then $$ q $$ suggests that there is a causal relationship between $$ p $$ and $$ q $$, however we must obey the truth table. The proposition "$$ (0 = 1) \rightarrow $$ *pigs can fly*" is true. This is because the $$ (0 = 1) $$ is false and "*pigs can fly*" is false, however according to the truth table $$ F \rightarrow F = T $$. It takes practice to intuitively understand how implications work. 
 
 * If $$ p $$ is true, then the truth value of $$ p \rightarrow q $$ depends on $$ q $$.
 * If $$ p $$ is false, then the truth value of $$ p \rightarrow q $$ is true, no matter what $$ q $$ is.
 * It may help to look from the false perspective: $$ p \rightarrow q $$ is false **only** if $$ p $$ is true and $$ q $$ is false.
 
+#### Sample Problem 2
+{:.no_toc}
+
+Let $$p, q, $$ and $$ r $$ be the propositions
+* $$p$$: You get an A on the final exam.
+* $$q$$: You do every problem in the book.
+* $$r$$: You get an A in the class.
+
+Represent each of the following statements into compound propositions:
+1. You did not do every problem in the book.
+2. You get an A in the class, but you do not do every problem in the book.
+3. Getting an A on the final exam and doing every exercise in the book is sufficient for getting an A in the class.
+
+<details><summary markdown='span'>Solution
+</summary>
+
+1. $$ \neg q $$.
+2. $$ r \wedge \neg q $$.
+3. $$ (p \wedge q) \rightarrow r $$.
+</details>
 
 {% include lib/mathjax.html %}
