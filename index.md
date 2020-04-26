@@ -111,12 +111,12 @@ Therefore, we have just proven it works!
 <details><summary markdown='span'>Solution
 </summary>
 
-1. Proposition
-2. Proposition
-3. Not a Proposition
-4. Not a Proposition
-5. Proposition
-6. Not a Proposition
+1. Proposition, its truth value is true.  
+2. Proposition, its truth value is false.
+3. Not a Proposition, questions do not have a truth value.
+4. Not a Proposition, paradoxes do not have a definite truth value.
+5. Proposition, its truth value is true.
+6. Not a Proposition.
 </details>
 
 {% include lib/mathjax.html %}
