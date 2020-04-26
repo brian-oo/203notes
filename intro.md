@@ -4,7 +4,7 @@ title: "Introduction to Discrete Math"
 permalink: /intro/
 ---
 
-# Introduction to Discrete Math 
+# Table of Contents
 {:.no_toc}
 
 * TOC
