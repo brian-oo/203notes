@@ -22,7 +22,7 @@ Yes he did. I believe that this is *integral* to everything that we will do here
 ### Coding for example
 
 For example, please look in your `int main` function. Some othcollaper examples of functions are:nfl
-```C++
+```c++
 int main(){
     cout << "Hello World" << endl;
 }
@@ -73,7 +73,7 @@ woah this stuff is hidden how is this possible woaH
 
 #### Sample Exam Problem
 How many times does the inner loop run? What is the final value of x at the end of the program?
-```C++
+```c++
 int function(int input){
     int x = 0
     for(int i = input; input < 100; input++){
