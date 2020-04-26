@@ -3,7 +3,7 @@ author: Brian Oo
 description: A quick-reference little side project. Transcribing a majority of the EECS 203 cirriculum at the University of Michigan as notes.
 theme: minima
 highlighter: rouge
-markdown: CommonMarkGhPages
+markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
