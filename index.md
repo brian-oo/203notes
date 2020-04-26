@@ -70,6 +70,7 @@ Take a look at this weird science thing:
 woah this stuff is hidden how is this possible woaH
 </details>
 
+
 #### Sample Exam Problem
 How many times does the inner loop run? What is the final value of x at the end of the program?
 ```C++
@@ -85,6 +86,8 @@ int function(int input){
 
 The loop runs 100 - `input` times and the `x` has the same value as input.
 </details>
+
+
 
 Tada!
 
@@ -102,4 +105,4 @@ $$
 
 Therefore, we have just proven it works!
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+{% include mathjax.html %}
