@@ -24,6 +24,8 @@ The other major component of a proposition is that it be a declarative statement
 
 Note that we do not have to know the truth value of a proposition to consider it a proposition. "Aliens exist" is a proposition, however we do not know its truth value. Nonetheless we can still use propositional logic on this proposition, despite not knowing its exact truth value. **Axioms** are propositions, that we assume to be true and are assumed to be true at all times, such as $$ 1 + 1 = 2 $$.
 
+* * *
+
 #### Sample Problem 1
 {:.no_toc}
 
@@ -45,6 +47,8 @@ Which of the following are propositions:
 5. Proposition, its truth value is true.
 6. Not a Proposition.
 </details>
+
+* * *
 
 Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a predicate because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
 
@@ -87,6 +91,8 @@ Implication is naturally unintuitive. Saying that if $$ p $$ then $$ q $$ sugges
 * If $$ p $$ is false, then the truth value of $$ p \rightarrow q $$ is true, no matter what $$ q $$ is.
 * It may help to look from the false perspective: $$ p \rightarrow q $$ is false **only** if $$ p $$ is true and $$ q $$ is false.
 
+* * *
+
 #### Sample Problem 2
 {:.no_toc}
 
@@ -107,5 +113,7 @@ Represent each of the following statements into compound propositions:
 2. $$ r \wedge \neg q $$.
 3. $$ (p \wedge q) \rightarrow r $$.
 </details>
+
+* * *
 
 {% include lib/mathjax.html %}
