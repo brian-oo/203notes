@@ -33,7 +33,7 @@ Which of the following are propositions:
 6.  $$ 8 \cdot x = 16 $$
 
 <details>
-    <summary>Solution</summary>
+    <summary> Solution </summary>
 
 
 1. Proposition, its truth value is true.
