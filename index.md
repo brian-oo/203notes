@@ -1,7 +1,7 @@
-# Preview
-- [Heading](#or-maybe-the-internet)
-  - [Coding](#preview)
-
+---
+title: Introduction to Discrete Math
+layout: common/page
+---
 
 # Heading
 George Washington
