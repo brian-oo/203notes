@@ -49,12 +49,16 @@ Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 
 
 # Compound Propositions
 
-In order to simplify logical expressions, we can use letters: such as $$ p, q, r $$ to represent propositions. Let's say we have propositions: $$ p = $$ It rained today and $$ q = $$ I brought my umbrella today. How could we express the logical statement: "It rained today and I brought my umbrella." We could define a new proposition, $$ r $$ to represent this statement, however this will get tedious the more and more expressions we have. The way to combine propositions is with logical operators.
+In order to simplify logical expressions, we can use letters: such as $$ p, q, r $$ to represent propositions. Let's say we have propositions: $$ p = $$ *It rained today* and $$ q = $$ *I brought my umbrella today*. How could we express the logical statement: "*It rained today and I brought my umbrella.*" We could define a new proposition, $$ r $$ to represent this statement, however this will get tedious the more and more expressions we have. The way to combine propositions is with logical operators.
 
 ## Logical Operators
 
-If we want to express both the logical expression of both $$ p $$ and $$ q $$, we use the *and* operator: $$ \wedge $$. Therefore, to represent the statement "It rained today and I brought my umbrella": $$ p \wedge q $$.
+If we want to express both the logical expression of both $$ p $$ and $$ q $$, we use the *and* operator: $$ \wedge $$. Therefore, to represent the statement "*It rained today and I brought my umbrella*": $$ p \wedge q $$. A full table of logical operators is below: 
 
+Compound Proposition | Expression in English
+:---: | :---:
+$$ \neg p $$ | "Not $$ p $$"
+$$ p \wedge q $$ | $$ p $$ and $$ q $$
 
 
 
