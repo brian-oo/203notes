@@ -30,7 +30,7 @@ Cool Right! Want to learn more? [Google It!](https://google.com)
 
 ### Or maybe the internet
 
-Wanna Try Recursion. [Here](test.md)
+Wanna Try Recursion. [Here](index.md)
 
 Let's make a list of what we've done so far
 * Nothing
