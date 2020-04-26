@@ -1,6 +1,5 @@
 ---
 title: Introduction to Discrete Math
-layout: common/page
 ---
 
 # Heading
