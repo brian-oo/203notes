@@ -108,4 +108,10 @@ $$
 
 Therefore, we have just proven it works!
 
+<details><summary markdown='span'>Collapsed Block
+</summary>
+
+## Header
+</details>
+
 {% include lib/mathjax.html %}
