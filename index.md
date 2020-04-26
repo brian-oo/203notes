@@ -112,6 +112,8 @@ Therefore, we have just proven it works!
 </summary>
 
 ## Header
+1. `code`
+2. pls
 </details>
 
 {% include lib/mathjax.html %}
