@@ -1,5 +1,6 @@
 ---
 title: Introduction to Discrete Math
+highlighter: rouge
 ---
 
 # Heading
