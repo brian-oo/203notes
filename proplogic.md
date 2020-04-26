@@ -21,7 +21,7 @@ Requiring propositions be either true or false, not neither or both, is more tha
 
 The other major component of a proposition is that it be a declarative statement. Exclamatory statements, such as "Wow!" have no truth value, nor do questions, such as "Is it raining?" It may seem natural to think the answer to the question represents the truth value, however the question itself does not have a truth value. The statement "It is raining right now" does maintain an active truth value, and is therefore a proposition. Note that we do not have to know the truth value of a proposition to consider it a proposition. "Aliens exist" is a proposition, however we do not know its truth value. Nonetheless we can still use propositional logic on this proposition, despite not knowing its exact truth value. **Axioms** are propositions, that we assume to be true and are assumed to be true at all times, such as $$ 1 + 1 = 2 $$.
 
-### Sample Problem 1
+#### Sample Problem 1
 {:.no_toc}
 
 Which of the following are propositions:
@@ -40,7 +40,7 @@ Which of the following are propositions:
 3. Not a Proposition, questions do not have a truth value.
 4. Not a Proposition, paradoxes do not have a definite truth value.
 5. Proposition, its truth value is true.
-6. Not a Proposition.
+6. Not a Proposition. $$ x \neq 4 $$
 </details>
 
 Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a predicate because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
