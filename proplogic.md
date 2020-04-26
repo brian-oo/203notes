@@ -47,6 +47,15 @@ Which of the following are propositions:
 
 Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a predicate because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
 
+# Compound Propositions
+
+In order to simplify logical expressions, we can use letters: such as $$ p, q, r $$ to represent propositions. Let's say we have propositions: $$ p = $$ It rained today and $$ q = $$ I brought my umbrella today. How could we express the logical statement: "It rained today and I brought my umbrella." We could define a new proposition, $$ r $$ to represent this statement, however this will get tedious the more and more expressions we have. The way to combine propositions is with logical operators.
+
+## Logical Operators
+
+If we want to express both the logical expression of both $$ p $$ and $$ q $$, we use the *and* operator: $$ \wedge $$. Therefore, to represent the statement "It rained today and I brought my umbrella": $$ p \wedge q $$.
+
+
 
 
 {% include lib/mathjax.html %}
