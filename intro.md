@@ -40,7 +40,7 @@ These topics form the basis of most of concepts in modern computing, and we will
 A lot of people claim EECS 203 is a useless class where you will never need any of the information ever again. I agree in part. You will never need to understand even 10% of every topic we go over. However, you will need to completely understand, inside-and-out, 10% of the topics we cover. wWich portion of topics you will need to know? It is up to you.
 
 # Note about Notes
-These notes are not designed to be a substitute for lecture. Additionally, these notes may cover topics that will not br explicitly covered in class, nor will these notes be guaranteed to cover every topic that will be tested on in class. These notes are designed to serve a supplementary purpose at the guideance of its handsome author.
+These notes are not designed to be a substitute for lecture. Additionally, these notes may cover topics that will not be explicitly covered in class, nor will these notes be guaranteed to cover every topic that will be tested on in class. These notes are designed to serve a supplementary purpose at the guideance of its handsome author.
 
 
 {% include lib/mathjax.html %}
