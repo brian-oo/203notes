@@ -29,8 +29,8 @@ Which of the following are propositions:
 2. All rectangles are squares.
 3. Is a rectangle a square?
 4. This statement is false.
-5.  \( 8 \cdot 2 = 16 \)
-6.  \( 8 \cdot x = 16 \)
+5.  $$ 8 \cdot 2 = 16 $$
+6.  $$ 8 \cdot x = 16 $$
 
 <details>
     <summary>Solution</summary>
@@ -43,8 +43,8 @@ Which of the following are propositions:
 5. Proposition, its truth value is true.
 6. Not a Proposition.
 
-
 </details>
+
 <p>&nbsp;</p>
 
 Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a predicate because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
