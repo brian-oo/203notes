@@ -105,4 +105,4 @@ $$
 
 Therefore, we have just proven it works!
 
-{% include mathjax.html %}
+{% include lib/mathjax.html %}
