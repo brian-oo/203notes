@@ -70,13 +70,22 @@ Note that these are not the only translations between logic and English. Transla
 $$ p $$ | $$ q $$ | $$ \neg p $$ | $$ p \wedge q $$ | $$ p \vee q $$ | $$ p \oplus q $$ | $$ p \rightarrow q $$ | $$ p \leftrightarrow q $$ |
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
 T | T | F | T | T | F | T | T
+T | F | F | F | T | T | F | F
+F | T | T | F | T | T | T | F
+F | F | T | F | F | F | T | T
 
 
 #### Or vs. Xor
 
 In logic we have two ways to express the English word "*or*". This is because there are some instances where we need an inclusive-or or an exclusive-or (xor). For example, the or in "*Today or tomorrow is her birthday*" is an exclusive-or since both situations can not both be true. Meanwhile the or in "*Would you like cream or sugar*" is inclusive because wanting cream, sugar, or both would all be valid responses.
 
+#### Implication
 
+Implication is naturally unintuitive. Saying that if $$ p $$ then $$ q $$ suggests that there is a causal relationship between $$ p $$ and $$ q $$, however we must obey the truth table. The proposition "$$ (0 = 1) \rightarrow $$ *pigs can fly*" is true. This is because the $$ (0 = 1) $$ is false and "*pigs can fly* is false, however according to the truth table $$ F \rightarrow F = T $$. It takes practice to intuitively understand how implications work. 
+
+* If $$ p $$ is true, then the truth value of $$ p \rightarrow q $$ depends on $$ q $$.
+* If $$ p $$ is false, then the truth value of $$ p \rightarrow q $$ is true, no matter what $$ q $$ is.
+* It may help to look from the false perspective: $$ p \rightarrow q $$ is false **only** if $$ p $$ is true and $$ q $$ is false.
 
 
 {% include lib/mathjax.html %}
