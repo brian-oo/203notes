@@ -58,7 +58,22 @@ If we want to express both the logical expression of both $$ p $$ and $$ q $$, w
 Compound Proposition | Expression in English
 :---: | :---:
 $$ \neg p $$ | "Not $$ p $$"
-$$ p \wedge q $$ | $$ p $$ and $$ q $$
+$$ p \wedge q $$ | "$$ p $$ and $$ q $$"
+$$ p \vee q $$ | "$$ p $$ or $$ q $$ (or both)"
+$$ p \oplus q $$ | "$$ p $$ or $$ q $$ (not both)"
+$$ p \rightarrow q $$ | "If $$ p $$ then $$ q $$"
+$$ p \leftrightarrow q $$ | "$$ p $$ if and only if $$ q $$"
+
+Note that these are not the only translations between logic and English. Translating between logic and English at times can be unclear and ambigious and so we can use **truth tables** to clearly define the meaning of a compound proposition. Below is a truth table for all of the logical operators defined above:
+
+$$ p $$ | $$ q $$ | $$ \neg p $$ | $$ p \wedge q $$ | $$ p \vee q $$ | $$ p \oplus q $$ | $$ p \rightarrow q $$ | $$ p \leftrightarrow q $$ |
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+T | T | F | T | T | F | T | T
+
+### Or vs. Xor
+
+In logic we have two ways to express the English word "*or*". This is because there are some instances where we need an inclusive-or or an exclusive-or (xor). For example, the or in "*Today or tomorrow is her birthday*" is an exclusive-or since both situations can not both be true. Meanwhile the or in "*Would you like cream or sugar*" is inclusive because wanting cream, sugar, or both would all be valid responses.
+
 
 
 
