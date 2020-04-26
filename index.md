@@ -108,12 +108,15 @@ $$
 
 Therefore, we have just proven it works!
 
-<details><summary markdown='span'>Collapsed Block
+<details><summary markdown='span'>Solution
 </summary>
 
-## Header
-1. `code`
-2. pls
+1. Proposition
+2. Proposition
+3. Not a Proposition
+4. Not a Proposition
+5. Proposition
+6. Not a Proposition
 </details>
 
 {% include lib/mathjax.html %}
