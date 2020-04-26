@@ -69,7 +69,7 @@ Take a look at this weird science thing:
 
 woah this stuff is hidden how is this possible woaH
 </details>
-
+<p>&nbsp;</p>
 
 #### Sample Exam Problem
 How many times does the inner loop run? What is the final value of x at the end of the program?
@@ -86,7 +86,7 @@ int function(int input){
 
 The loop runs 100 - `input` times and the `x` has the same value as input.
 </details>
-
+<p>&nbsp;</p>
 
 
 Tada!
