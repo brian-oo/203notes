@@ -143,4 +143,13 @@ F | F | F | F
 
 Since the $$ p $$ and $$ q $$ columns are identical, the propositions are logically equivalent.
 
+### Logical Identities
+A truth table works great for small compound propositions without many different elementary propositions; however, as these propositions get larger, it will require larger and more complex truth tables to fully prove logical equivalance. The other method we use to prove logical equivalances is with **logical identities** (equivalance laws). Just as in algebra, you can use distributive, communiative, associative, and many other laws to simplify equations, we can use equivalance laws to simplify propositions. A list of equvalance laws are below:
+
+Name | Equivalence |
+:---: | :---
+Identity Laws | $$ p \wedge \bold{T} = p$$<br>$$ p \vee \bold{F} = p$$
+Domination Laws | $$ p \vee \bold{T} =  \bold{T}$$<br>$$ p \wedge \bold{F} = \bold{F}$$
+
+
 {% include lib/mathjax.html %}
