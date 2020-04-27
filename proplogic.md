@@ -196,6 +196,9 @@ $$ \begin{aligned}
 &= p \wedge q & \text{Double Negatation Law}
 \end{aligned}
 $$
+
+
+
 Therefore, we have shown $$ p \wedge q = \neg (p \rightarrow \neg q)$$.
 </details>
 
