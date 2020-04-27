@@ -117,7 +117,7 @@ Represent each of the following statements into compound propositions:
 * * *
 
 ## Logical Equivalences
-Two propositions are considered the same if they are **logically equivalent**, meaning that they mean the exact same thing in terms of logic. This means that given an input of propositions with truth values, the two propositions will always result in the same truth value. **Tautologies** are propositions that are always true, while **contradictions** are tautologies that are always false. Take the proposition $$ \neg p \vee p $$. Either $$ p $$ is true or false, meaning that one side of this or statement is true at any given time, meaning the entire compound proposition will equate to true. This means that this proposition is a tautology and is logically equivalent to true. The proposition $$ \neg p \wedge p $$ is a contradiction, since there is no scenario with $$ p $$ is true *and* false.
+Two propositions are considered the same if they are **logically equivalent**, meaning that they mean the exact same thing in terms of logic. This means that given an input of propositions with truth values, the two propositions will always result in the same truth value. **Tautologies** are propositions that are always true, while **contradictions** are tautologies that are always false. Take the proposition $$ \neg p \vee p $$. Either $$ p $$ is true or false, meaning that one side of this or statement is true at any given time, meaning the entire compound proposition will equate to true. This means that this proposition is a tautology and is logically equivalent to true. The proposition $$ \neg p \wedge p $$ is a contradiction, since there is no scenario with $$ p $$ is true *and* false. A proposition is **satisfiable** if there is some set of input that make the proposition true. A proposition is never both a contradiction and satisfiable. 
 
 Some propositions are very complex, yet we still need to see if they are logical equivalences. To do so, we can either use truth tables or logical identities to prove logical equivalance.
 
@@ -148,7 +148,7 @@ A truth table works great for small compound propositions without many different
 
 Name | Equivalence |
 :---: | :---
-Identity Law | $$ p \wedge \textbf{T} = p$$<br>$$ p \vee  \textbf{F} = p$$
+Identity Law | $$ p \wedge \textbf{T} = p $$<br>$$ p \vee  \textbf{F} = p$$
 Domination Law | $$ p \vee \textbf{T}  =\textbf{T} $$<br>$$ p \wedge \textbf{F} = \textbf{F} $$
 Idempotent Law | $$ p \vee p = p $$<br>$$ p \wedge p = p $$
 Double Negation Law | $$ \neg ( \neg p) = p $$
@@ -160,5 +160,40 @@ Absorption Law | $$ p \wedge (p \vee q) = p $$<br>$$ p \vee (p \wedge q) = p $$
 Negation Law | $$ p \wedge \neg p = \textbf{F} $$<br>$$ p \vee \neg p = \textbf{T} $$
 Definition of Conditional Statement | $$ p \rightarrow q = \neg p \vee q $$
 Definition of Biconditional Statement | $$ p \leftrightarrow q = (p \rightarrow q) \wedge (q \rightarrow p) $$
+
+* * *
+
+#### Sample Problem 3
+{:.no_toc}
+
+Prove the following logical equivalance using *both* truth tables and logical identities:
+
+$$ p \wedge q = \neg (p \rightarrow \neg q)$$
+
+<details><summary markdown='span'>Solution
+</summary>
+
+Truth Table:
+$$ p $$ | $$ q $$ | $$ p \wedge q $$ | $$ \neg (p \rightarrow \neg q) $$ |
+:---: | :---: | :---: | :---:
+T | T | T | T
+T | F | F | F
+F | T | F | F
+F | F | F | F
+
+Since both propositions have the same truth table, they are logically equivalant.
+
+
+Logical Identities:
+$$ \begin{aligned} 
+& \neg (p \rightarrow \neg q) & \text{Given} \\
+& = \neg (\neg p \vee \neg q) & \text{Definition of Conditional Statement} \\
+&= \neg ( \neg p) \wedge \neg (\neg q) & \text{De Morgan's Law} \\
+&= p \wedge q & \text{Double Negatation Law}
+\end{aligned}
+$$
+</details>
+
+* * *
 
 {% include lib/mathjax.html %}
