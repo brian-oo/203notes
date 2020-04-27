@@ -133,7 +133,8 @@ We can translate these statements into compound propositions:
 * $$ q = \neg c \vee u $$.
 
 Now we can use a truth table to see if these result in the same output for every input:
-$$ c $$ | $$ u $$ | $$ p = c \rightarrow u $$ | $$ q = \neg c \vee u $$
+
+$$ c $$ | $$ u $$ | $$ p = c \rightarrow u $$ | $$ q = \neg c \vee u $$ |
 :---: | :---: | :---: | :---:
 T | T | T | T
 T | F | F | F
