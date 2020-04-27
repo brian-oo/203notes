@@ -151,14 +151,14 @@ Name | Equivalence |
 Identity Law | $$ p \wedge \textbf{T} = p$$<br>$$ p \vee  \textbf{F} = p$$
 Domination Law | $$ p \vee \textbf{T}  =\textbf{T} $$<br>$$ p \wedge \textbf{F} = \textbf{F} $$
 Idempotent Law | $$ p \vee p = p $$<br>$$ p \wedge p = p $$
-Double Negation Law | $$ \neg ( \neg p) $$ = p $$
+Double Negation Law | $$ \neg ( \neg p) = p $$
 Commutative Law | $$ p \wedge q = q \wedge p $$<br>$$ p \vee q = q \vee p $$
 Associatie Law | $$ (p \wedge q) \wedge r = p \wedge (q \wedge r) $$<br>$$ (p \vee q) \vee r = p \vee (q \vee r) $$
 Distributive Law | $$ p \wedge (q \vee r) = (p \vee q) \wedge (p \vee r) $$<br>$$ p \vee (q \wedge r) = (p \wedge q) \vee (p \wedge r) $$
 De Morgan's Law | $$ \neg (p \wedge q) = \neg p \vee \neg q $$<br>$$ \neg (p \vee q) = \neg p \wedge \neg q $$
-Absorption Law | $$ p \wedge (p \vee q) - p $$<br>$$ p \vee (p \wedge q) = p $$
-Negation Law | $$ p \wedge \neg p = \textbf{F} $$<br>$$ p \vee \neg p = \textnf{T} $$
+Absorption Law | $$ p \wedge (p \vee q) = p $$<br>$$ p \vee (p \wedge q) = p $$
+Negation Law | $$ p \wedge \neg p = \textbf{F} $$<br>$$ p \vee \neg p = \textbf{T} $$
 Definition of Conditional Statement | $$ p \rightarrow q = \neg p \vee q $$
-Definition of Biconditional Statement | $$ p \leftrightarrow q = (p \rightarrow q) \wedge (q \rightarrow p)
+Definition of Biconditional Statement | $$ p \leftrightarrow q = (p \rightarrow q) \wedge (q \rightarrow p) $$
 
 {% include lib/mathjax.html %}
