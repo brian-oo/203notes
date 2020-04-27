@@ -116,4 +116,30 @@ Represent each of the following statements into compound propositions:
 
 * * *
 
+## Logical Equivalences
+Two propositions are considered the same if they are **logically equivalent**, meaning that they mean the exact same thing in terms of logic. This means that given an input of propositions with truth values, the two propositions will always result in the same truth value. **Tautologies** are propositions that are always true, while **contradictions** are tautologies that are always false. Take the proposition $$ \neg p \vee p $$. Either $$ p $$ is true or false, meaning that one side of this or statement is true at any given time, meaning the entire compound proposition will equate to true. This means that this proposition is a tautology and is logically equivalent to true. The proposition $$ \neg p \wedge p $$ is a contradiction, since there is no scenario with $$ p $$ is true *and* false.
+
+Some propositions are very complex, yet we still need to see if they are logical equivalences. To do so, we can either use truth tables or logical identities to prove logical equivalance.
+
+### Truth Tables
+Two compound propositions are logically equivalent if and only if they have the same truth table. Let's try to see if these two statements are logically equivalent: 
+* $$ p $$ = "*If my nose is cold, then I am unhappy*"
+* $$ q $$ = "*My nose is not cold or I'm unhappy*"
+* Let $$ c $$ = "*My nose is cold*"
+* Let $$ u $$ = "*I am unhappy*"
+
+We can translate these statements into compound propositions:
+* $$ p = c \rightarrow u $$.
+* $$ q = \neg c \vee u $$.
+
+Now we can use a truth table to see if these result in the same output for every input:
+$$ c $$ | $$ u $$ | $$ p = c \rightarrow u $$ | $$ q = \neg c \vee u $$
+:---: | :---: | :---: | :---:
+T | T | T | T
+T | F | F | F
+F | T | T | T
+F | F | F | F
+
+Since the $$ p $$ and $$ q $$ columns are identical, the propositions are logically equivalent.
+
 {% include lib/mathjax.html %}
