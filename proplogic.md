@@ -174,6 +174,8 @@ $$ p \wedge q = \neg (p \rightarrow \neg q)$$
 </summary>
 
 Truth Table:
+
+
 $$ p $$ | $$ q $$ | $$ p \wedge q $$ | $$ \neg (p \rightarrow \neg q) $$ |
 :---: | :---: | :---: | :---:
 T | T | T | T
@@ -185,6 +187,8 @@ Since both propositions have the same truth table, they are logically equivalant
 
 
 Logical Identities:
+
+
 $$ \begin{aligned} 
 & \neg (p \rightarrow \neg q) & \text{Given} \\
 & = \neg (\neg p \vee \neg q) & \text{Definition of Conditional Statement} \\
