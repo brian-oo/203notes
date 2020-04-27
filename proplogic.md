@@ -144,12 +144,21 @@ F | F | F | F
 Since the $$ p $$ and $$ q $$ columns are identical, the propositions are logically equivalent.
 
 ### Logical Identities
-A truth table works great for small compound propositions without many different elementary propositions; however, as these propositions get larger, it will require larger and more complex truth tables to fully prove logical equivalance. The other method we use to prove logical equivalances is with **logical identities** (equivalance laws). Just as in algebra, you can use distributive, communiative, associative, and many other laws to simplify equations, we can use equivalance laws to simplify propositions. A list of equvalance laws are below:
+A truth table works great for small compound propositions without many different elementary propositions; however, as these propositions get larger, it will require larger and more complex truth tables to fully prove logical equivalance. The other method we use to prove logical equivalances is with **logical identities** (equivalance laws). Just as in algebra, you can use distributive, Commutative, associative, and many other laws to simplify equations, we can use equivalance laws to simplify propositions. A list of equvalance laws are below:
 
 Name | Equivalence |
 :---: | :---
-Identity Laws | $$ p \wedge \textbf{T} = p$$<br>$$ p \vee  \textbf{F} = p$$
-Domination Laws | $$ p \vee \textbf{T}  =\textbf{T}$$<br>$$ p \wedge \textbf{F} = \textbf{F}$$
-
+Identity Law | $$ p \wedge \textbf{T} = p$$<br>$$ p \vee  \textbf{F} = p$$
+Domination Law | $$ p \vee \textbf{T}  =\textbf{T} $$<br>$$ p \wedge \textbf{F} = \textbf{F} $$
+Idempotent Law | $$ p \vee p = p $$<br>$$ p \wedge p = p $$
+Double Negation Law | $$ \neg ( \neg p) $$ = p $$
+Commutative Law | $$ p \wedge q = q \wedge p $$<br>$$ p \vee q = q \vee p $$
+Associatie Law | $$ (p \wedge q) \wedge r = p \wedge (q \wedge r) $$<br>$$ (p \vee q) \vee r = p \vee (q \vee r) $$
+Distributive Law | $$ p \wedge (q \vee r) = (p \vee q) \wedge (p \vee r) $$<br>$$ p \vee (q \wedge r) = (p \wedge q) \vee (p \wedge r) $$
+De Morgan's Law | $$ \neg (p \wedge q) = \neg p \vee \neg q $$<br>$$ \neg (p \vee q) = \neg p \wedge \neg q $$
+Absorption Law | $$ p \wedge (p \vee q) - p $$<br>$$ p \vee (p \wedge q) = p $$
+Negation Law | $$ p \wedge \neg p = \textbf{F} $$<br>$$ p \vee \neg p = \textnf{T} $$
+Definition of Conditional Statement | $$ p \rightarrow q = \neg p \vee q $$
+Definition of Biconditional Statement | $$ p \leftrightarrow q = (p \rightarrow q) \wedge (q \rightarrow p)
 
 {% include lib/mathjax.html %}
