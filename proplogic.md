@@ -148,8 +148,8 @@ A truth table works great for small compound propositions without many different
 
 Name | Equivalence |
 :---: | :---
-Identity Laws | $$ p \wedge \bold{T} = p$$<br>$$ p \vee \bold{F} = p$$
-Domination Laws | $$ p \vee \bold{T} =  \bold{T}$$<br>$$ p \wedge \bold{F} = \bold{F}$$
+Identity Laws | $$ p \wedge \textbf{T} = p$$<br>$$ p \vee  \textbf{F} = p$$
+Domination Laws | $$ p \vee \textbf{T}  =\textbf{T}$$<br>$$ p \wedge \textbf{F} = \textbf{F}$$
 
 
 {% include lib/mathjax.html %}
