@@ -62,7 +62,7 @@ What about a nested list?
 
 Take a look at this weird science thing:
 
-![Weird Science Thingy](collpitts.png)
+![Weird Science Thingy](_images/collpitts.png)
 
 
 ## Playing with Collapses Now!
