@@ -5,6 +5,7 @@ title: Tester
 # Links to other Pages (toc)
 * [Introduction to Discrete Math](intro.md)
 * [Propositional Logic](proplogic.md)
+* [Predicate Logic](predlogic.md)
 
 # Heading
 George Washington

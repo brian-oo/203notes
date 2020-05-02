@@ -203,4 +203,15 @@ Therefore, we have shown $$ p \wedge q = \neg (p \rightarrow \neg q)$$.
 
 * * *
 
+
+<details><summary markdown='span'>EECS Extension
+</summary>
+
+Combining propositions to create logical equivalances can also be seen through logic circuits. In logic circuits, propositions represent 1s and 0s values, rather than true and false. Additionally, in order to combine values, we use gates that represent the same logical operators we defined earlier (OR, NOT, AND, XOR). Two or more inputs go into a gate, and out comes the result according to the circuit gate. These logic circuits form the basis of combinational logic, which is a requirement when doing logic design (the first few chapters of EECS 270). Below is a sample logic gate as well as it's propositional equivalances.
+
+![Sample Logic Gate](_images/logiccircuit.png)
+
+In logic design, we typically use mathematical symbols, like `+`, `*`, and `'` to represent OR, AND, and NOT respectively, however all of the logical principles learned in propositional logic still hold. We can also use logical equivalances, such as through truth tables or logical identities to simplify outputs. For example, the output in our circuit above is $$ (\neg ( \neg p \wedge q ) \vee r ) \wedge ( \neg p \wedge q ) $$, however we can simplify this to $$ r \wedge \neg p \wedge q $$. For our purposes, this doesn't do much besides making the proposition cleaner and easier to work with, however on a hardware level, where each gate costs power and money, simplifying expressions to require as few gates as possible is very important. 
+</details>
+
 {% include lib/mathjax.html %}
