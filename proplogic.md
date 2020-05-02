@@ -50,7 +50,7 @@ Which of the following are propositions:
 
 * * *
 
-Number 6 from the [Sample Problem](#sample-problem-1) is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a predicate because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
+Number 6 is tricky. $$ 8 \cdot x = 16 $$ is a proposition only if we have a value for $$ x $$. At the moment, it is a [predicate](predlogic.md) because we are unsure of what $$ x $$ is. If $$ x $$ was a sandwich, then the proposition $$ 8 \cdot x = 16 $$ is not a proposition because it makes no sense: what is the truth value of eight times sandwich? Once we define possible values (domain) for $$ x $$, then we make the claim there is a truth value. "Given that $$ x $$ is a real number, $$ 8 \cdot x = 16 $$", this is a proposition, since although we do not know if the value of $$ x $$ and thus the truth value of the proposition, we know that the statement is either true or false, thus making it a proposition.
 
 ## Compound Propositions
 
@@ -144,7 +144,7 @@ F | F | F | F
 Since the $$ p $$ and $$ q $$ columns are identical, the propositions are logically equivalent.
 
 ### Logical Identities
-A truth table works great for small compound propositions without many different elementary propositions; however, as these propositions get larger, it will require larger and more complex truth tables to fully prove logical equivalance. The other method we use to prove logical equivalances is with **logical identities** (equivalance laws). Just as in algebra, you can use distributive, Commutative, associative, and many other laws to simplify equations, we can use equivalance laws to simplify propositions. A list of equvalance laws are below:
+A truth table works great for small compound propositions without many different elementary propositions; however, as these propositions get larger, it will require larger and more complex truth tables to fully prove logical equivalance. The other method we use to prove logical equivalances is with **logical identities** (equivalance laws). Just as in algebra, you can use distributive, commutative, associative, and many other laws to simplify equations, we can use equivalance laws to simplify propositions. A list of equvalance laws are below:
 
 Name | Equivalence |
 :---: | :---
