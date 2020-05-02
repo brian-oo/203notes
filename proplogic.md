@@ -14,6 +14,8 @@ permalink: /proplogic/
 
 In order to begin our journey in any proof-based math class, we must start with the building block: propositions. If logic and proofs were a house, propositions are the bricks. A **proposition** is a declarative statement that is either *true* or *false*. Propositions must be true or false, and can not be neither true nor false, nor be both true and false. Propositions are strictly binary and must maintain only one truth value at a time.
 
+![Sample Logic Gate](images/logiccircuit.png)
+
 <details><summary markdown='span'>EECS Extension
 </summary>
 
