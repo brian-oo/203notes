@@ -30,9 +30,15 @@ Why does $$ \neg r \wedge \neg s $$ mean that both sisters are the same height?
 
 What does $$ \neg r $$ mean? Well if the original proposition means "*Dan's first sister is taller than his second sister*", then the negation of it is "*Dan's first sister is shorter than or the same height as his second sister*." We have to remember that the opposite of taller than isn't shorter than, but shorter than or equal to. Applying this negation to both propositions, we get $$ \neg r \wedge \neg s $$ meaning "*Dan's first sister's height is less than or the same as his second sister and Dan's second sister's height is less than or the same as his first sister*". The only possible option is that their heights are the same since both propositions must be true.
 
-This is a neat trick we see a lot in mathematics in order to prove two things are equal. Sometimes, it is difficult to directly prove that two things are equal, however easy to prove that one thing is greater than or equal to another. If we perform this greater than or equal to proof two times, going in both directions ( $$ A \geq B $$ & $$ B \geq A $$ ), we can prove that $$ A = B $$. We will see this trick come in again later.
+This is a neat trick we see a lot in mathematics in order to prove two things are equal. Sometimes, it is difficult to directly prove that two things are equal, however easy to prove that one thing is greater-than-or-equal-to another. If we perform this greater-than-or-equal-to proof two times, going in both directions ( $$ A \geq B $$ & $$ B \geq A $$ ), we can prove that $$ A = B $$. We will see this trick come in again later.
 </details>
 
 We can use predicate logic to explicitly described objects and relations to describe characteristics between objects.
+* Objects: D = Dan, S1 = First Sister, S2 = Second Sister
+* Relations: $$ T(x,y) $$ = " $$ x $$ *is taller than* $$ y $$ ".
+
+Then we can represent the the proposition as $$ T(D,S1) \wedge T(D,S2) \wedge \neg T(S1, S2) \wedge \neg T(S2, S1) $$. When the variables in a relation are bound to objects, the relation becomes a proposition with a true/false value.
+
+## Quantification
 
 {% include lib/mathjax.html %}
