@@ -112,6 +112,7 @@ Therefore, we have just proven it works!
 <details><summary markdown='span'>Solution
 </summary>
 
+![Weird Science Thingy](images/collpitts.png)
 1. Proposition, its truth value is true.  
 2. Proposition, its truth value is false.
 3. Not a Proposition, questions do not have a truth value.
