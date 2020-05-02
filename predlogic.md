@@ -35,3 +35,4 @@ This is a neat trick we see a lot in mathematics in order to prove two things ar
 
 We can use predicate logic to explicitly described objects and relations to describe characteristics between objects.
 
+{% include lib/mathjax.html %}
