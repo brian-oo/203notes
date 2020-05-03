@@ -63,6 +63,7 @@ The existential quantifier, represented by the symbol $$ \exists $$, spoken as "
 Under the existential quantifier, anywhere from one to every element in the domain of discourse has the property. The existential quantifier can be conceptualized as $$ P(x_1) \vee P(x_2) \vee P(x_3) \vee ... $$.
 
 The table below defines the conditions for when both quantifiers are true or false
+
  True/False | $$ \forall P(x) $$ | $$ \exists P(x) $$
  :---: | :---: | :---:
  True when... | $$ P(x) $$ true for every $$ x $$ | $$ P(x) $$ true for at least one $$ x $$
