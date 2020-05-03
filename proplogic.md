@@ -214,4 +214,4 @@ Combining propositions to create logical equivalances can also be seen through l
 In logic design, we typically use mathematical symbols, like `+`, `*`, and `'` to represent OR, AND, and NOT respectively, however all of the logical principles learned in propositional logic still hold. We can also use logical equivalances, such as through truth tables or logical identities to simplify outputs. For example, the output in our circuit above is $$ (\neg ( \neg p \wedge q ) \vee r ) \wedge ( \neg p \wedge q ) $$, however we can simplify this to $$ r \wedge \neg p \wedge q $$. For our purposes, this doesn't do much besides making the proposition cleaner and easier to work with, however on a hardware level, where each gate costs power and money, simplifying expressions to require as few gates as possible is very important. 
 </details>
 
-    {% include lib/mathjax.html %}
+{% include lib/mathjax.html %}
