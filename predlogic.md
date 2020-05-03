@@ -73,6 +73,8 @@ The table below defines the conditions for when both quantifiers are true or fal
 
 When using multiple instances of an element or multiple different quantifiers, we be careful with the scope and ordering of these elements
 
+### Scope of Quantifiers
+
 Let $$ B(x, y) $$ mean $$ x $$ buys $$ y $$.
 
 "*Everyone will buy an umbrella or a raincoat*."
@@ -89,6 +91,7 @@ $$ \forall x \underline{B(x, \text{Umbrella})} \vee \forall x \underline{B(x, \t
 
 In this example there are two quantified variable, and for each variable, there is a unique scope for the variable. This has to potential to cause confusion, so we try to avoid it by having two unique variables representing the two different quantifications. $$ \forall x \underline{B(x, \text{Umbrella})} \vee \forall y \underline{B(y, \text{Raincoat} ) } $$.
 
+### Order of Quantifiers
 
 When using multiple variables and quantifiers, the understanding the order is essential to understanding the statement:
 
@@ -119,5 +122,6 @@ Using the same predicates and domains as before, translate the following stateme
 
 * * *
 
+### Negating Quantifiers
 
 {% include lib/mathjax.html %}
