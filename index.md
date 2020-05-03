@@ -1,5 +1,6 @@
 ---
 title: Tester
+layout: home
 ---
 
 # Links to other Pages (toc)
@@ -141,13 +142,10 @@ $$
 x + -y + z -t & = & \text{Assumption} \\
 2x + 2y + 2z +3t & = & \text{Yes 1} \\
 x + -y + z -t & = & \text{Assumption} \\
-\boxed{
 2x + 2y + 2z +3t & = & \text{Yes 1} \\
 x + -y + z -t & = & \text{Assumption} \\
-}
 2x + 2y + 2z +3t & = & \text{Yes 1}
 \end{array}
-}
 \end{equation}
 $$
 
