@@ -83,4 +83,20 @@ In this example there is only one quantified variable, $$ x $$, and the scope of
 
 
 
+"*Everyone will buy an umbrella or everyone will buy a raincoat*."
+
+$$ \forall x \underline{B(x, \text{Umbrella})} \vee \forall x \underline{B(x, \text{Raincoat} ) } $$.
+
+In this example there is are two quantified variable, and for each variable, there is a unique scope for the variable. This has to potential to cause confusion, so we try to avoid it by having two unique variables representing the two different quantifications. $$ \forall x \underline{B(x, \text{Umbrella})} \vee \forall y \underline{B(y, \text{Raincoat} ) } $$.
+
+
+When using multiple variables and quantifiers, the understanding the order is essential to understanding the statement:
+
+* Let the domain of $$ x $$ be people and let the domain of $$ y $$ be items in a shop 
+* $$ \forall x \exists y B(x,y) $$ means for every person, they must buy some item. It does not have to be the same item for everyone, but for each person they must buy some item.
+* $$ \exists y \forall x B(x,y) $$ means for some specific item, every person must buy it. This item is the same for every person. 
+
+
+
+
 {% include lib/mathjax.html %}
