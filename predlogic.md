@@ -145,10 +145,10 @@ Simplify the following statement: $$ \neg \forall a \exists b \forall c P(a, b, 
 
 $$
 \begin{aligned}
-    \neg \forall a \exists b \forall c P(a, b, c) \\
-    \exists a \neg ( \exists b \forall c P(a,b,c)) \\
-    \exists a \forall b \neg (\forall c P(a,b,c)) \\
-    \exists a \forall b \exists c \neg P(a,b,c)
+    &\neg \forall a \exists b \forall c P(a, b, c) \\
+    & \equiv \exists a \neg ( \exists b \forall c P(a,b,c)) \\
+    & \equiv \exists a \forall b \neg (\forall c P(a,b,c)) \\
+    & \equiv \exists a \forall b \exists c \neg P(a,b,c)
 \end{aligned}
 $$
 </details>
