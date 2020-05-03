@@ -58,7 +58,14 @@ Without defining the domain of discourse, predicates are ambigious. In $$ \foral
 
 ### Existential Quantifier
 
+The existential quantifier, represented by the symbol $$ \exists $$, spoken as "*there exists*" represents some element. In other words, it means at least one element has this property. Again, we must specify to domain of discourse to know what pool of elements we are choosing from.
 
+Under the existential quantifier, anywhere from one to every element in the domain of discourse has the property. The existential quantifier can be conceptualized as $$ P(x_1) \vee P(x_2) \vee P(x_3) \vee ... $$.
+
+ | $$ \forall P(x) $$ | $$ \exists P(x) $$
+ :---: | :---: | :---:
+ True when... | $$ P(x) $$ true for every $$ x $$ | $$ P(x) $$ true for at least one $$ x $$
+ False when... | $$ P(x) $$ fa;se for at ;east pme $$ x $$ | $$ P(x) $$ false for every $$ x $$
 
 
 {% include lib/mathjax.html %}
