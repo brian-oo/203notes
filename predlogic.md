@@ -49,7 +49,7 @@ To do so, we can use quantifiers.
 
 ### Universal Quantifier
 
-The universal quantifier, represented by the symbol $$ \forall $$, spoken as "*for all*" represents every element. $$ \forall x P(x) $$ represents "*Everyone will buy an umbrella*". This can be conceptualized as $$ P(x_1) \wedge P(x_2) \wedge P(x_3) \wedge ... $$, since for every element $$ x $$, they must buy an umbrella. 
+The universal quantifier, represented by the symbol $$ \forall $$, spoken as "*for all*" represents every element. $$ \forall x P(x) $$ represents "*Everyone will buy an umbrella*". This can be conceptualized as $$ P(x_1) \wedge P(x_2) \wedge P(x_3) \wedge ... $$ , since for every element $$ x $$, they must buy an umbrella. 
 
 Whenever we say for all $$ x $$, we must define the **domain of discourse** (also called the universe of discourse). [Wikipedia](https://en.wikipedia.org/wiki/Domain_of_discourse) defines the domain of discourse as
 > the set of entities over which certain variables of interest in some formal treatment may range. In first-order logic, the domain of discourse is the set of individuals over which the quantifiers range.
@@ -60,16 +60,25 @@ Without defining the domain of discourse, predicates are ambigious. In $$ \foral
 
 The existential quantifier, represented by the symbol $$ \exists $$, spoken as "*there exists*" represents some element. In other words, it means at least one element has this property. Again, we must specify to domain of discourse to know what pool of elements we are choosing from.
 
-Under the existential quantifier, anywhere from one to every element in the domain of discourse has the property. The existential quantifier can be conceptualized as $$ P(x_1) \vee P(x_2) \vee P(x_3) \vee ... $$.
+Under the existential quantifier, anywhere from one to every element in the domain of discourse has the property. The existential quantifier can be conceptualized as $$ P(x_1) \vee P(x_2) \vee P(x_3) \vee ... $$ .
 
 The table below defines the conditions for when both quantifiers are true or false
 
  True/False | $$ \forall P(x) $$ | $$ \exists P(x) $$
  :---: | :---: | :---:
  True when... | $$ P(x) $$ true for every $$ x $$ | $$ P(x) $$ true for at least one $$ x $$
- False when... | $$ P(x) $$ fa;se for at ;east pme $$ x $$ | $$ P(x) $$ false for every $$ x $$
+ False when... | $$ P(x) $$ false for at least one $$ x $$ | $$ P(x) $$ false for every $$ x $$
 
 ## Nested Quantiifiers
+
+When using multiple instances of an element or multiple different quantifiers, we be careful with the scope and ordering of these elements
+
+Let $$ B(x, y) $$ mean $$ x $$ buys $$ y $$.
+
+"*Everyone will buy an umbrella or a raincoat*."
+$$ \forall x \underline{(B(x, \text{Umbrella}) \vee B(x, \text{Raincoat} ) )} $$
+In this example there is only one quantified variable, $$ x $$, and the scope of this variable is the entire underlined statement. 
+
 
 
 {% include lib/mathjax.html %}
