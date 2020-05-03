@@ -124,4 +124,38 @@ Using the same predicates and domains as before, translate the following stateme
 
 ### Negating Quantifiers
 
+In order to negate the universal and existential quantifier, the trick is to change the quantifier type and then negate the predicate.
+
+$$ \neg \forall x P(x) \equiv \exists x \neg P(x) $$
+
+$$ \neg \exists x P(x) \equiv \forall x \neg P(x) $$
+
+This comes from De Morgan's law. Recall that according to De Morgan's law, $$ \neg (p \wedge q) \equiv \neg p \vee \neg q $$. Also, recall that universal quantifiers are really an extended series of ands and existential quantifiers are really an extended series of ors. 
+
+
+* * *
+
+#### Sample Problem 2
+{:.no_toc}
+
+Simplify the following statement: $$ \neg \forall a \exists b \forall c P(a, b, c) $$
+
+<details><summary markdown='span'>Solution
+</summary>
+
+$$
+\begin{aligned}
+    \neg \forall a \exists b \forall c P(a, b, c) \\
+    \exists a \neg ( \exists b \forall c P(a,b,c)) \\
+    \exists a \forall b \neg (\forall c P(a,b,c)) \\
+    \exists a \forall b \exists c \neg P(a,b,c)
+\end{aligned}
+$$
+</details>
+
+* * *
+
+## Translation to Logic
+
+
 {% include lib/mathjax.html %}
