@@ -76,7 +76,9 @@ When using multiple instances of an element or multiple different quantifiers, w
 Let $$ B(x, y) $$ mean $$ x $$ buys $$ y $$.
 
 "*Everyone will buy an umbrella or a raincoat*."
-$$ \forall x \underline{(B(x, \text{Umbrella}) \vee B(x, \text{Raincoat} ) )} $$
+
+$$ \forall x \underline{(B(x, \text{Umbrella}) \vee B(x, \text{Raincoat} ) )} $$.
+
 In this example there is only one quantified variable, $$ x $$, and the scope of this variable is the entire underlined statement. 
 
 
