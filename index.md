@@ -1,6 +1,5 @@
 ---
 title: Tester
-layout: home
 ---
 
 # Links to other Pages (toc)
