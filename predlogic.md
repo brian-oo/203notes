@@ -147,8 +147,8 @@ $$
 \begin{aligned}
     &\neg \forall a \exists b \forall c P(a, b, c) \\
     & \equiv \exists a \neg ( \exists b \forall c P(a,b,c)) \\
-    & \boxed{\equiv \exists a \forall b \neg (\forall c P(a,b,c))} \\
-    & \equiv \exists a \forall b \exists c \neg P(a,b,c)
+    & \boxed{\equiv \exists a \forall b \neg (\forall c P(a,b,c)) \\
+    & \equiv \exists a \forall b \exists c \neg P(a,b,c) }
 \end{aligned}
 $$
 </details>
