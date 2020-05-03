@@ -139,6 +139,12 @@ $$
 \boxed{
 \begin{array}{rcl}
 x + -y + z -t & = & \text{Assumption} \\
+2x + 2y + 2z +3t & = & \text{Yes 1} \\
+x + -y + z -t & = & \text{Assumption} \\
+\boxed{
+2x + 2y + 2z +3t & = & \text{Yes 1} \\
+x + -y + z -t & = & \text{Assumption} \\
+}
 2x + 2y + 2z +3t & = & \text{Yes 1}
 \end{array}
 }
