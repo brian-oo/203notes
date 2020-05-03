@@ -41,4 +41,24 @@ Then we can represent the the proposition as $$ T(D,S1) \wedge T(D,S2) \wedge \n
 
 ## Quantification
 
+A relation can have just a single arguement; we can call this a property of the object. For example, let $$ P(x) $$ be "$$ x $$ *will buy an umbrella*". The statement, "*If you buy an umbrella, then I'll buy an umbrella*" can be represented as $$ P(\text{You}) \rightarrow P(\text{Me}) $$. 
+
+How can we represent the phrase "*Everyone will buy an umbrella*". We run into the issue where there may be an infinite number of things to account for or we do not know everyone in the list. Nonetheless, we need to represent the fact that everyone will buy an umbrella. 
+
+To do so, we can use quantifiers.
+
+### Universal Quantifier
+
+The universal quantifier, represented by the symbol $$ \forall $$, spoken as "*for all*" represents every element. $$ \forall x P(x) $$ represents "*Everyone will buy an umbrella*". This can be conceptualized as $$ P(x_1) \wedge P(x_2) \wedge P(x_3) \wedge ... $$, since for every element $$ x $$, they must buy an umbrella. 
+
+Whenever we say for all $$ x $$, we must define the **domain of discourse** (also called the universe of discourse). [Wikipedia](https://en.wikipedia.org/wiki/Domain_of_discourse) defines the domain of discourse as
+> the set of entities over which certain variables of interest in some formal treatment may range. In first-order logic, the domain of discourse is the set of individuals over which the quantifiers range.
+
+Without defining the domain of discourse, predicates are ambigious. In $$ \forall x P(x) $$, $$ x $$ itself be anything, however by specifying the domain of discourse, we can specify our domain as all people, people in this class, pets of people in this class. 
+
+### Existential Quantifier
+
+
+
+
 {% include lib/mathjax.html %}
