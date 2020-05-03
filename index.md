@@ -123,4 +123,27 @@ Therefore, we have just proven it works!
 
 Does having words after fuck u up?
 
+$$
+\begin{equation}
+\boxed{
+\begin{array}{rcl}
+x + -y + z -t & = & 0 \\
+2x + 2y + 2z +3t & = & 0
+\end{array}
+}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\begin{array}{rcl}
+x + -y + z -t & = & \text{Assumption} \\
+2x + 2y + 2z +3t & = & \text{Yes 1}
+\end{array}
+}
+\end{equation}
+$$
+
+
 {% include lib/mathjax.html %}
