@@ -100,6 +100,12 @@ Fully understanding how to prove an algorithm is correct is beyond the scope of 
 
 
 ## Greedy Algorithms
+There are many classes of algorithms, as well as classes on algorithms. We will not cover all of the classes, nor go as deep as an algorithms class will, however if you wish to learn more, delve deeper into an algorithm class on algorithm classes.
+
+
+One algorithm class we will cover is the **greedy (myopic) algorithm** A greedy algorithm computes a solution by iteratively by making the locally optimal choice. In other words, it chooses the action with the least cost/most profit in its current state, without taking into consideraton any future decisions. This evaluation of "greediness" as to what is considered valuable or not is decided by the design of the algorithm. In general, greedy algorithms are an easy-to-implement, however ineffective strategy for solving complex problems efficiently, however they can sometimes work given the correct implementation and circumstances. 
+  
+
 
 
 
