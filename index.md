@@ -6,6 +6,7 @@ title: Tester
 * [Introduction to Discrete Math](intro.md)
 * [Propositional Logic](proplogic.md)
 * [Predicate Logic](predlogic.md)
+* [Algorithms](algorithm.md)
 
 # Heading
 George Washington
