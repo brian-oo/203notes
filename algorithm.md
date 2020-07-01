@@ -100,6 +100,7 @@ Fully understanding how to prove an algorithm is correct is beyond the scope of 
 
 
 ## Greedy Algorithms
+
 There are many classes of algorithms, as well as classes on algorithms. We will not cover all of the classes, nor go as deep as an algorithms class will, however if you wish to learn more, delve deeper into an algorithm class on algorithm classes.
 
 
