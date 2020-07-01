@@ -96,6 +96,11 @@ procedure sum (n: positive integer)
 
 * * *
 
+Fully understanding how to prove an algorithm is correct is beyond the scope of the basics in discrete math, however it fundamentally uses proof by [induction](induction.md) and invariants. Induction can take us far, however for elements unique to algorithms like loops, with no real mathematical equivalant, invariants help fill in the logical gaps. A loop invariant is a logic statement that is always true. In our inductive step, we would utilize the loop invariant, proving it among our inductive hypothesis.
+
+
+## Greedy Algorithms
+
 
 
 {% include lib/mathjax.html %}
